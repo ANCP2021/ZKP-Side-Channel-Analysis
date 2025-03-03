@@ -1,0 +1,10 @@
+[package]
+name = "pure_rust"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+license-file.workspace = true
+
+[dependencies]
+winterfell = "0.12.0"

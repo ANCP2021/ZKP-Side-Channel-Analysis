@@ -8,3 +8,5 @@ license-file.workspace = true
 
 [dependencies]
 winterfell = "0.12.0"
+sha2 = "0.10"
+anyhow = "1.0"

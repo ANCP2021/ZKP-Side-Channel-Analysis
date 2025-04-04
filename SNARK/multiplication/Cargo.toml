@@ -1,0 +1,13 @@
+[package]
+name = "merkle_zkp_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-bn254 = "0.3"
+ark-groth16 = "0.3"
+ark-relations = "0.3"
+ark-std = "0.3"
+ark-r1cs-std = "0.3"
+rand = "0.8"
+sha2 = "0.10"

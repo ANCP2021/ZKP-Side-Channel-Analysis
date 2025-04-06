@@ -16,6 +16,8 @@ use winterfell::{
 	matrix::ColMatrix,
 	AcceptableOptions, FieldExtension, BatchingMethod,
 };
+use std::env;
+use std::process;
 
 // build a trace with length 8 using three columns:
 // - Column 0: running value
@@ -151,8 +153,18 @@ impl Prover for MultiplicationProver {
 
 fn main() {
 	// secret inputs (e.g., a = 3 and b = 5).
-	let a = BaseElement::new(3);
-	let b = BaseElement::new(5);
+	//let a = BaseElement::new(3);
+	//let b = BaseElement::new(5);
+	let args: Vec<String> = env::args().collect();
+	if args.len() != 3 {
+		eprintln!("Usage: {} <a> <b>", args[0]);
+		process::exit(1);
+	}
+	let a_val: u128 = args[1].parse().expect("Failed to parse a as an integer");
+	let b_val: u128 = args[2].parse().expect("Failed to parse b as an integer");
+
+	let a = BaseElement::new(a_val);
+	let b = BaseElement::new(b_val);
 
 	// build the trace with 8 rows
 	let trace = build_multiplication_trace(a, b);

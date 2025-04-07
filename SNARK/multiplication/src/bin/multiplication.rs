@@ -16,7 +16,9 @@ use ark_relations::r1cs::{
 };
 use ark_relations::lc;
 use ark_std::test_rng;
-use std::ops::Mul;
+//use std::ops::Mul;
+use std::env;
+use std::process;
 
 /// This struct defines multiplication circuit for SNARK
 struct MultiplicationCircuit {
@@ -61,11 +63,21 @@ fn main() {
     let rng = &mut test_rng();
 
     // Define secret inputs: a = 3 and b = 5
-    let a = Fr::from(3u32);
-    let b = Fr::from(5u32);
+    //let a = Fr::from(3u32);
+    //let b = Fr::from(5u32);
+    let args: Vec<String> = env::args().collect();
+	if args.len() != 3 {
+		eprintln!("Usage: {} <a> <b>", args[0]);
+		process::exit(1);
+	}
+	let a_val: u128 = args[1].parse().expect("Failed to parse a as an integer");
+	let b_val: u128 = args[2].parse().expect("Failed to parse b as an integer");
+
+	let a = Fr::from(a_val);
+	let b = Fr::from(b_val);
 
     // Compute the expected product
-    let product = a.mul(b);
+    let product = Fr::from(15);//a.mul(b);
 
     // Create an instance of the circuit with the witness values
     let circuit = MultiplicationCircuit {

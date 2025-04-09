@@ -1,50 +1,50 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `cargo run --bin multiplication -- 1 1` | 108.2 ± 4.0 | 103.7 | 135.9 | 1.00 ± 0.05 |
-| `cargo run --bin multiplication -- 2 1` | 109.5 ± 2.8 | 104.9 | 118.4 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 3 1` | 109.3 ± 2.5 | 105.3 | 121.9 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 4 1` | 109.5 ± 2.0 | 105.8 | 115.7 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 5 1` | 109.4 ± 2.9 | 104.7 | 122.5 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 6 1` | 109.7 ± 2.4 | 105.5 | 117.4 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 7 1` | 109.6 ± 2.2 | 104.8 | 115.5 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 8 1` | 109.4 ± 2.4 | 105.6 | 118.2 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 9 1` | 109.8 ± 2.6 | 105.1 | 121.5 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 10 1` | 110.0 ± 2.5 | 105.4 | 117.7 | 1.02 ± 0.04 |
-| `cargo run --bin multiplication -- 11 1` | 110.1 ± 2.6 | 105.4 | 120.5 | 1.02 ± 0.04 |
-| `cargo run --bin multiplication -- 12 1` | 109.4 ± 2.8 | 105.2 | 128.6 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 13 1` | 109.9 ± 2.8 | 105.2 | 123.3 | 1.02 ± 0.04 |
-| `cargo run --bin multiplication -- 14 1` | 110.7 ± 9.2 | 105.2 | 198.8 | 1.02 ± 0.09 |
-| `cargo run --bin multiplication -- 15 1` | 108.2 ± 3.0 | 103.3 | 125.7 | 1.00 |
-| `cargo run --bin multiplication -- 1 2` | 110.8 ± 3.9 | 106.2 | 137.8 | 1.00 ± 0.04 |
-| `cargo run --bin multiplication -- 2 2` | 111.6 ± 2.4 | 107.6 | 122.6 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 3 2` | 111.0 ± 2.9 | 106.7 | 126.8 | 1.00 ± 0.04 |
-| `cargo run --bin multiplication -- 4 2` | 111.2 ± 2.3 | 106.6 | 117.2 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 5 2` | 110.5 ± 2.8 | 106.0 | 123.5 | 1.00 ± 0.04 |
-| `cargo run --bin multiplication -- 6 2` | 111.2 ± 2.2 | 106.7 | 118.8 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 7 2` | 110.6 ± 2.3 | 106.6 | 118.9 | 1.00 ± 0.03 |
-| `cargo run --bin multiplication -- 8 2` | 111.1 ± 2.2 | 106.1 | 118.6 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 9 2` | 111.1 ± 2.8 | 106.4 | 123.1 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 10 2` | 111.0 ± 2.5 | 106.8 | 127.0 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 11 2` | 110.9 ± 2.4 | 107.1 | 119.0 | 1.00 ± 0.03 |
-| `cargo run --bin multiplication -- 12 2` | 111.5 ± 2.8 | 106.8 | 120.3 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 13 2` | 111.3 ± 9.3 | 106.2 | 201.0 | 1.01 ± 0.09 |
-| `cargo run --bin multiplication -- 14 2` | 110.4 ± 2.9 | 105.8 | 126.7 | 1.00 |
-| `cargo run --bin multiplication -- 15 2` | 111.5 ± 2.7 | 107.4 | 126.3 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 1 3` | 109.7 ± 2.8 | 105.0 | 122.2 | 1.00 |
-| `cargo run --bin multiplication -- 2 3` | 111.5 ± 3.1 | 106.8 | 120.5 | 1.02 ± 0.04 |
-| `cargo run --bin multiplication -- 3 3` | 111.3 ± 2.8 | 107.1 | 128.9 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 4 3` | 111.3 ± 4.1 | 106.4 | 145.1 | 1.01 ± 0.05 |
-| `cargo run --bin multiplication -- 5 3` | 111.0 ± 2.6 | 105.7 | 123.7 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 6 3` | 110.8 ± 2.3 | 107.0 | 119.9 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 7 3` | 110.7 ± 2.5 | 106.9 | 122.6 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 8 3` | 111.2 ± 2.8 | 107.5 | 122.1 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 9 3` | 111.1 ± 2.6 | 107.0 | 121.5 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 10 3` | 110.5 ± 2.7 | 106.2 | 126.0 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 11 3` | 111.3 ± 5.3 | 106.8 | 148.0 | 1.01 ± 0.06 |
-| `cargo run --bin multiplication -- 12 3` | 110.6 ± 2.6 | 106.9 | 120.7 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 13 3` | 111.1 ± 2.5 | 106.5 | 123.6 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 14 3` | 111.5 ± 9.5 | 106.5 | 202.1 | 1.02 ± 0.09 |
-| `cargo run --bin multiplication -- 15 3` | 110.0 ± 2.9 | 105.4 | 128.7 | 1.00 ± 0.04 |
+| `cargo run --bin multiplication -- 1 1` | 45.3 ± 1.5 | 42.8 | 49.9 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 2 1` | 45.2 ± 1.8 | 42.8 | 52.6 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 3 1` | 45.8 ± 2.2 | 42.3 | 60.3 | 1.03 ± 0.07 |
+| `cargo run --bin multiplication -- 4 1` | 45.1 ± 1.6 | 42.7 | 52.4 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 5 1` | 44.4 ± 1.3 | 42.6 | 48.5 | 1.00 ± 0.05 |
+| `cargo run --bin multiplication -- 6 1` | 45.6 ± 1.5 | 42.8 | 50.7 | 1.03 ± 0.06 |
+| `cargo run --bin multiplication -- 7 1` | 45.0 ± 1.6 | 42.4 | 51.0 | 1.01 ± 0.06 |
+| `cargo run --bin multiplication -- 8 1` | 44.4 ± 1.9 | 42.2 | 56.2 | 1.00 |
+| `cargo run --bin multiplication -- 9 1` | 44.8 ± 2.1 | 42.3 | 54.9 | 1.01 ± 0.06 |
+| `cargo run --bin multiplication -- 10 1` | 44.5 ± 1.7 | 41.8 | 48.9 | 1.00 ± 0.06 |
+| `cargo run --bin multiplication -- 11 1` | 45.0 ± 2.1 | 42.2 | 53.3 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 12 1` | 45.1 ± 1.8 | 42.7 | 51.3 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 13 1` | 44.8 ± 2.1 | 42.2 | 53.5 | 1.01 ± 0.06 |
+| `cargo run --bin multiplication -- 14 1` | 45.1 ± 1.9 | 42.4 | 56.7 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 15 1` | 45.0 ± 2.1 | 42.5 | 54.9 | 1.01 ± 0.06 |
+| `cargo run --bin multiplication -- 1 2` | 45.8 ± 2.1 | 42.6 | 58.9 | 1.03 ± 0.06 |
+| `cargo run --bin multiplication -- 2 2` | 44.8 ± 1.9 | 42.4 | 52.4 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 3 2` | 44.4 ± 1.4 | 42.5 | 47.9 | 1.00 |
+| `cargo run --bin multiplication -- 4 2` | 45.3 ± 1.7 | 42.6 | 49.8 | 1.02 ± 0.05 |
+| `cargo run --bin multiplication -- 5 2` | 44.5 ± 1.7 | 42.3 | 54.4 | 1.00 ± 0.05 |
+| `cargo run --bin multiplication -- 6 2` | 44.8 ± 1.8 | 42.2 | 51.8 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 7 2` | 45.5 ± 2.0 | 42.3 | 54.0 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 8 2` | 44.9 ± 1.6 | 42.5 | 50.6 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 9 2` | 44.7 ± 1.6 | 42.5 | 50.4 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 10 2` | 44.9 ± 1.6 | 42.7 | 51.2 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 11 2` | 45.1 ± 2.5 | 42.4 | 60.4 | 1.01 ± 0.07 |
+| `cargo run --bin multiplication -- 12 2` | 45.0 ± 1.6 | 42.6 | 51.2 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 13 2` | 44.7 ± 1.6 | 42.1 | 50.4 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 14 2` | 45.4 ± 1.9 | 43.0 | 55.1 | 1.02 ± 0.05 |
+| `cargo run --bin multiplication -- 15 2` | 44.7 ± 2.4 | 42.3 | 60.6 | 1.01 ± 0.06 |
+| `cargo run --bin multiplication -- 1 3` | 45.1 ± 2.0 | 42.4 | 55.1 | 1.01 ± 0.06 |
+| `cargo run --bin multiplication -- 2 3` | 44.9 ± 1.7 | 42.2 | 51.4 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 3 3` | 44.7 ± 1.8 | 42.6 | 55.3 | 1.00 ± 0.05 |
+| `cargo run --bin multiplication -- 4 3` | 45.7 ± 2.6 | 42.6 | 59.9 | 1.02 ± 0.07 |
+| `cargo run --bin multiplication -- 5 3` | 45.6 ± 1.6 | 43.3 | 51.8 | 1.02 ± 0.05 |
+| `cargo run --bin multiplication -- 6 3` | 45.2 ± 1.7 | 42.4 | 53.5 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 7 3` | 45.1 ± 1.4 | 42.6 | 49.6 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 8 3` | 44.6 ± 1.6 | 42.5 | 52.2 | 1.00 |
+| `cargo run --bin multiplication -- 9 3` | 45.2 ± 1.7 | 42.8 | 50.5 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 10 3` | 44.8 ± 2.0 | 42.3 | 55.6 | 1.00 ± 0.06 |
+| `cargo run --bin multiplication -- 11 3` | 45.1 ± 1.7 | 42.3 | 52.6 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 12 3` | 45.9 ± 2.1 | 43.1 | 57.1 | 1.03 ± 0.06 |
+| `cargo run --bin multiplication -- 13 3` | 45.1 ± 1.5 | 42.6 | 49.6 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 14 3` | 45.7 ± 2.1 | 42.9 | 60.1 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 15 3` | 44.9 ± 1.7 | 42.3 | 49.9 | 1.01 ± 0.05 |
 | `cargo run --bin multiplication -- 1 4` | 44.8 ± 1.8 | 42.3 | 50.5 | 1.01 ± 0.05 |
 | `cargo run --bin multiplication -- 2 4` | 44.6 ± 1.9 | 42.1 | 51.8 | 1.00 ± 0.05 |
 | `cargo run --bin multiplication -- 3 4` | 45.0 ± 1.5 | 42.5 | 50.8 | 1.01 ± 0.05 |

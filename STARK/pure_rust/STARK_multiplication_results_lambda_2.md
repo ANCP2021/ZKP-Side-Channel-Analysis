@@ -1,17 +1,17 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `cargo run --bin multiplication -- 1 2` | 110.8 ± 3.9 | 106.2 | 137.8 | 1.00 ± 0.04 |
-| `cargo run --bin multiplication -- 2 2` | 111.6 ± 2.4 | 107.6 | 122.6 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 3 2` | 111.0 ± 2.9 | 106.7 | 126.8 | 1.00 ± 0.04 |
-| `cargo run --bin multiplication -- 4 2` | 111.2 ± 2.3 | 106.6 | 117.2 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 5 2` | 110.5 ± 2.8 | 106.0 | 123.5 | 1.00 ± 0.04 |
-| `cargo run --bin multiplication -- 6 2` | 111.2 ± 2.2 | 106.7 | 118.8 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 7 2` | 110.6 ± 2.3 | 106.6 | 118.9 | 1.00 ± 0.03 |
-| `cargo run --bin multiplication -- 8 2` | 111.1 ± 2.2 | 106.1 | 118.6 | 1.01 ± 0.03 |
-| `cargo run --bin multiplication -- 9 2` | 111.1 ± 2.8 | 106.4 | 123.1 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 10 2` | 111.0 ± 2.5 | 106.8 | 127.0 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 11 2` | 110.9 ± 2.4 | 107.1 | 119.0 | 1.00 ± 0.03 |
-| `cargo run --bin multiplication -- 12 2` | 111.5 ± 2.8 | 106.8 | 120.3 | 1.01 ± 0.04 |
-| `cargo run --bin multiplication -- 13 2` | 111.3 ± 9.3 | 106.2 | 201.0 | 1.01 ± 0.09 |
-| `cargo run --bin multiplication -- 14 2` | 110.4 ± 2.9 | 105.8 | 126.7 | 1.00 |
-| `cargo run --bin multiplication -- 15 2` | 111.5 ± 2.7 | 107.4 | 126.3 | 1.01 ± 0.04 |
+| `cargo run --bin multiplication -- 1 2` | 45.8 ± 2.1 | 42.6 | 58.9 | 1.03 ± 0.06 |
+| `cargo run --bin multiplication -- 2 2` | 44.8 ± 1.9 | 42.4 | 52.4 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 3 2` | 44.4 ± 1.4 | 42.5 | 47.9 | 1.00 |
+| `cargo run --bin multiplication -- 4 2` | 45.3 ± 1.7 | 42.6 | 49.8 | 1.02 ± 0.05 |
+| `cargo run --bin multiplication -- 5 2` | 44.5 ± 1.7 | 42.3 | 54.4 | 1.00 ± 0.05 |
+| `cargo run --bin multiplication -- 6 2` | 44.8 ± 1.8 | 42.2 | 51.8 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 7 2` | 45.5 ± 2.0 | 42.3 | 54.0 | 1.02 ± 0.06 |
+| `cargo run --bin multiplication -- 8 2` | 44.9 ± 1.6 | 42.5 | 50.6 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 9 2` | 44.7 ± 1.6 | 42.5 | 50.4 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 10 2` | 44.9 ± 1.6 | 42.7 | 51.2 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 11 2` | 45.1 ± 2.5 | 42.4 | 60.4 | 1.01 ± 0.07 |
+| `cargo run --bin multiplication -- 12 2` | 45.0 ± 1.6 | 42.6 | 51.2 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 13 2` | 44.7 ± 1.6 | 42.1 | 50.4 | 1.01 ± 0.05 |
+| `cargo run --bin multiplication -- 14 2` | 45.4 ± 1.9 | 43.0 | 55.1 | 1.02 ± 0.05 |
+| `cargo run --bin multiplication -- 15 2` | 44.7 ± 2.4 | 42.3 | 60.6 | 1.01 ± 0.06 |
